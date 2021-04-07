@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Yemek Tarifleri</title>
+    </head>
+    <body>
+        <div id="main">
+            <div class="title">
+                <h1>Yemek Tarifleri</h1>
+                <h4 id="fav_message"></h4>
+            </div>
+            <hr>
+            <div class="food_type" id="yemek_list1"></div>
+            <hr>
+            <div class="food_type" id="yemek_list2"></div>
+            <hr>
+            <div id="food_recipes">
+                <h2 class="title" id="eat_title"></h2>
+                <h2 class="title" id="favorileme_butonu"></h2>
+                <div class="" id="picture"></div>
+                <div class="recipe" id="mal_list"></div>
+                <div class="recipe" id="recipes"></div>
+            </div>    
+            </div>
+        </div>
+    </body>
+    <script src="https://unpkg.com/socket.io-client@4.0.0/dist/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./browser.js"></script>
+    <script src="./websocket.js"></script>
+</html>
